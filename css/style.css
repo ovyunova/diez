@@ -14,9 +14,17 @@
 	font-display: swap;
 }
 
+.map {
+	width: 288px;
+	height: 216px;
+}
+
+@media (min-width: 321px) {
 
 .map {
 	width: 870px;
 	height: 470px;
+
+}
 
 }
