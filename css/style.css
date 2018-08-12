@@ -14,11 +14,34 @@
 	font-display: swap;
 }
 
-.map {
-	width: 288px;
-	height: 216px;
+.wrapper {
+	width: 100%;
+	margin: 0 auto;
 }
 
+.promo-mobile-btn {
+ 	display: block;
+	background-color: #eec643;
+	color: #fff;
+	width: 290px;
+	height: 60px;
+	font-family: 'PT Sans', sans-serif;
+	font-size: 16px;
+	text-transform: uppercase;
+}
+
+.directions-title {
+	font-family: 'Prata', sans-serif;
+	font-size: 30px;
+	content: #000;
+	border-top: 1px solid #eec643;
+	border-bottom: 1px solid #eec643;
+}
+
+.map {
+	width: 100%;
+	height: 216px;
+}
  
 .promo-form,
 .footer-logo,
@@ -26,8 +49,24 @@
 	display: none;
 }
 
-@media (min-width: 321px) {
+@media (min-width: 1024px) {
 
+.wrapper {
+	width: 1280px;
+	margin: 0 auto;
+}
+
+.directions-title {
+	font-family: 'Prata', sans-serif;
+	font-size: 50px;
+	content: #000;
+	border-top: 1px solid #eec643;
+	border-bottom: 1px solid #eec643;
+}
+
+.promo-mobile-btn {
+	display: none;
+}
 
 
 .map {
