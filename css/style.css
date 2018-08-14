@@ -50,6 +50,7 @@
 	border-top: 1px solid #eec643;
 	border-bottom: 1px solid #eec643;
 	margin: 0; 
+	width: 60%;
 }
 
 .map {
@@ -63,10 +64,10 @@
 	display: none;
 }
 
-@media (min-width: 1024px) {
+@media (min-width: 1025px) {
 
 .wrapper {
-	width: 1280px;
+	width: 100%;
 	margin: 0 auto;
 }
 
@@ -74,6 +75,7 @@
 	font-size: 50px;
 	border-top: 3px solid #eec643;
 	border-bottom: 3px solid #eec643;
+	width: 90%;
 }
 
 .promo-mobile-btn {
@@ -82,7 +84,7 @@
 
 
 .map {
-	width: 870px;
+	width: 60%;
 	height: 470px;
 
 }
@@ -93,6 +95,41 @@
 	display: block;
 }
 
+.promo,
+.directions,
+.lesson,
+.video,
+.contacts {
+	margin: 0 5%;
+	width: 90%;
+}
 
+footer {
+	margin: 0 5%;
+	padding-top: 100px;
+	padding-bottom: 60px;
+}
+.footer-logo {
+	font-family: 'Prata', sans-serif;
+	font-size: 20px;
+	color: #eec643;
+}
+
+.footer-social {
+	padding-left: 60%;
+    margin-top: -35px;
+    margin-right: 0px;
+}
+
+.footer-social-item {
+	font-family: 'PT Sans', sans-serif;
+	font-size: 12px;
+	text-transform: uppercase;
+	padding-left: 45px;
+}
+
+.__list {
+	display: inline;
+}
 
 }
