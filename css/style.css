@@ -23,11 +23,23 @@
 	background-image: url(../img/bg_main_mobile.png);
 	background-repeat: no-repeat;
 	background-position: 10% 0;
+	position: relative;
 
+}
+.wrapper:before {
+    content: '';
+    position: absolute;
+    background-color: #000;
+    width: 100%;
+    height: 536px;
+    opacity: 0.1;
+    z-index: 1
 }
 
 header {
 	padding-top: 30px;
+	visibility: 	position: relative;
+	z-index: 3;;
 }
 
 nav {
@@ -44,6 +56,10 @@ header,
 	margin-right: 6%;
 	width: 88%;
 	margin-bottom: 50px;
+}
+.promo {
+	position: relative;
+	z-index: 3;
 }
 
 .logo-diez {
@@ -104,6 +120,20 @@ h1 {
 	display: none;
 }
 
+@media (min-width: 321px){
+
+.wrapper{
+	background-size: cover;
+	background-image: url(../img/bg_main.png);
+	background-repeat: no-repeat;
+	background-position: 10% 0;
+	height: 536px;
+	position: relative;
+}
+
+}
+
+
 @media (min-width: 1025px) {
 
 .wrapper {
@@ -112,6 +142,7 @@ h1 {
 	background-image: url(../img/bg_main.png);
 	background-repeat: no-repeat;
 	background-position: 10% 0;
+	position: relative;
 }
 
 header {
@@ -119,6 +150,8 @@ header {
 	margin-left: 5%;
 	padding-top: 30px;
 	margin-bottom: 140px;
+	position: relative;
+	z-index: 3;
 }
 
 nav {
@@ -145,6 +178,11 @@ nav {
 .contacts {
 	margin: 0 5%;
 	width: 90%;
+}
+
+.promo {
+	position: relative;
+	z-index: 3;
 }
 
 .__title {
