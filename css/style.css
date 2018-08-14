@@ -14,11 +14,21 @@
 	font-display: swap;
 }
 
+
 .wrapper {
 	width: 100%;
 	margin: 0 auto;
 }
 
+header {
+	margin-top: 30px;
+}
+
+nav {
+	display: none;
+}
+
+header,
 .promo,
 .directions,
 .lesson,
@@ -27,6 +37,12 @@
 	margin-left: 6%;
 	margin-right: 6%;
 	width: 88%;
+}
+
+.logo-diez {
+	font-family: 'Prata', sans-serif;
+	font-size: 30px;
+	color: #eec643;
 }
 
 .promo-mobile-btn {
@@ -71,6 +87,39 @@
 	margin: 0 auto;
 }
 
+header {
+	margin-right: 5%;
+	margin-left: 5%;
+	margin-top: 30px;
+	margin-bottom: 140px;
+}
+
+nav {
+	display: inline;
+	margin-bottom: 100px;
+}
+
+.nav-list {
+	padding-left: 60%;
+    margin-top: -25px;
+}
+
+.nav-item {
+	font-family: 'PT Sans', sans-serif;
+	font-size: 16px;
+	text-transform: uppercase;
+	padding-left: 30px;
+}
+
+.promo,
+.directions,
+.lesson,
+.video,
+.contacts {
+	margin: 0 5%;
+	width: 90%;
+}
+
 .__title {
 	font-size: 50px;
 	border-top: 3px solid #eec643;
@@ -82,11 +131,9 @@
 	display: none;
 }
 
-
 .map {
 	width: 60%;
 	height: 470px;
-
 }
 
 .promo-form,
