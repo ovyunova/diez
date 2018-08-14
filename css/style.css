@@ -13,15 +13,21 @@
 	font-weight: 400;
 	font-display: swap;
 }
-
+* {
+  box-sizing: border-box;
+}
 
 .wrapper {
 	width: 100%;
 	margin: 0 auto;
+	background-image: url(../img/bg_main_mobile.png);
+	background-repeat: no-repeat;
+	background-position: 10% 0;
+
 }
 
 header {
-	margin-top: 30px;
+	padding-top: 30px;
 }
 
 nav {
@@ -37,6 +43,7 @@ header,
 	margin-left: 6%;
 	margin-right: 6%;
 	width: 88%;
+	margin-bottom: 50px;
 }
 
 .logo-diez {
@@ -50,12 +57,29 @@ header,
 	background-color: #eec643;
 	color: #fff;
 	padding: 24px 0;
-	margin-top: 6%;
-	margin-bottom: 6%;
+    margin-top: 95px;
+    /*margin-bottom: 30px;*/
 	font-family: 'PT Sans', sans-serif;
 	font-size: 16px;
 	text-transform: uppercase;
 	text-align: center;
+	line-height: 22px;
+}
+
+h1 {
+	font-family: 'Prata', sans-serif;
+	font-size: 32px;
+	line-height: 42px;
+	color: #fff;
+}
+
+.promo-title-desktop {
+	display: none;
+}
+.promo-subline {
+	color: #fff;
+	font-family: 'PT Sans', sans-serif;
+	font-size: 16px;
 	line-height: 22px;
 }
 
@@ -85,12 +109,15 @@ header,
 .wrapper {
 	width: 100%;
 	margin: 0 auto;
+	background-image: url(../img/bg_main.png);
+	background-repeat: no-repeat;
+	background-position: 10% 0;
 }
 
 header {
 	margin-right: 5%;
 	margin-left: 5%;
-	margin-top: 30px;
+	padding-top: 30px;
 	margin-bottom: 140px;
 }
 
@@ -129,6 +156,28 @@ nav {
 
 .promo-mobile-btn {
 	display: none;
+}
+
+h1 {
+	font-family: 'Prata', sans-serif;
+	font-size: 55px;
+	line-height: 55px;
+	color: #fff;
+
+}
+
+.promo-title-mobile {
+	display: none;
+}
+.promo-title-desktop {
+	display: inline-block;
+}
+
+.promo-subline {
+	color: #fff;
+	font-family: 'PT Sans', sans-serif;
+	font-size: 20px;
+	line-height: 28px;
 }
 
 .map {
