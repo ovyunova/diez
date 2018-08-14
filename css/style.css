@@ -19,23 +19,37 @@
 	margin: 0 auto;
 }
 
+.promo,
+.directions,
+.lesson,
+.video,
+.contacts {
+	margin-left: 6%;
+	margin-right: 6%;
+	width: 88%;
+}
+
 .promo-mobile-btn {
  	display: block;
 	background-color: #eec643;
 	color: #fff;
-	width: 290px;
-	height: 60px;
+	padding: 24px 0;
+	margin-top: 6%;
+	margin-bottom: 6%;
 	font-family: 'PT Sans', sans-serif;
 	font-size: 16px;
 	text-transform: uppercase;
+	text-align: center;
+	line-height: 22px;
 }
 
-.directions-title {
+.__title {
 	font-family: 'Prata', sans-serif;
 	font-size: 30px;
-	content: #000;
+	color: #000;
 	border-top: 1px solid #eec643;
 	border-bottom: 1px solid #eec643;
+	margin: 0; 
 }
 
 .map {
@@ -56,12 +70,10 @@
 	margin: 0 auto;
 }
 
-.directions-title {
-	font-family: 'Prata', sans-serif;
+.__title {
 	font-size: 50px;
-	content: #000;
-	border-top: 1px solid #eec643;
-	border-bottom: 1px solid #eec643;
+	border-top: 3px solid #eec643;
+	border-bottom: 3px solid #eec643;
 }
 
 .promo-mobile-btn {
