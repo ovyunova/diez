@@ -376,6 +376,7 @@ h1 {
 	white-space: nowrap;
 	writing-mode: vertical-lr;
 	font-family: 'Prata', sans-serif;
+	font-weight: normal;
 	font-size: 50px;
 	line-height: 50px;
 	margin: 0;
@@ -404,9 +405,11 @@ h1 {
 }
 .direction__guitar-img {
 	background-image: url(../img/directions_card_img_1.png);
-	height: 270px;
 	background-repeat: no-repeat;
+	height: 270px;
+	background-size: cover; 
 	margin-left: 40px;
+	margin-right: 30px;
 	margin-bottom: 30px;
 }
 
@@ -417,8 +420,10 @@ h1 {
 }
 .direction__piano-img {
 	background-image: url(../img/directions_card_img_3.png);
-	height: 270px;
 	background-repeat: no-repeat;
+	background-size: cover; 
+	height: 270px;
+	margin-right: 30px;
 	margin-left: 40px;
 }
 
