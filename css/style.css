@@ -64,6 +64,7 @@ header,
 	position: relative;
 	z-index: 3;
 	height: 405px;
+
 }
 
 .logo-diez {
@@ -210,6 +211,7 @@ nav {
 .promo {
 	position: relative;
 	z-index: 3;
+	height: 650px;
 }
 
 .promo-item {
@@ -320,19 +322,37 @@ h1 {
 	line-height: 28px;
 }
 
-.directions {
-	padding-top: 220px;
+.direction {
+	height: 660px;
 
 }
 
-.direction-cols{
+.direction__container {
+	display: flex;
+	align-self: flex-end;
+}
+
+.container {
+	max-width: 1170px;
+	margin: 0 auto;
+}
+.row {
 	display: flex;
 	flex-wrap: wrap;
 }
-.direction-cols-item {
+
+.direction__guitar,
+.direction__vocal,
+.direction__piano {
 	width: 50%;
-	position: relative;
 }
+
+.direction__lessons,
+.direction__all {
+	width: 25%;
+	flex-grow: 1;
+}
+
 
 .__title {
 	font-size: 50px;
@@ -341,7 +361,13 @@ h1 {
 	width: 90%;
 }
 
-.__title-dir {
+.direction__vocal-text--mobile,
+.direction__piano-text--mobile,
+.direction__guitar-text--mobile {
+	display: none;
+}
+
+.direction__header {
 	position: relative;
 	transform: rotate(180deg);
 	display: block;
@@ -352,9 +378,10 @@ h1 {
 	font-family: 'Prata', sans-serif;
 	font-size: 50px;
 	line-height: 50px;
+	margin: 0;
 }
 
-.__title-dir::before {
+.direction__header::before {
 	content: '';
 	display: block;
 	position: absolute;
@@ -362,10 +389,10 @@ h1 {
 	width: 2px;
 	height: 100%;
 	top: 0;
-	right: 44px;
+	right: 50px;
 }
 
-.__title-dir::after {
+.direction__header::after {
 	content: '';
 	display: block;
 	position: absolute;
@@ -373,18 +400,74 @@ h1 {
 	width: 2px;
 	height: 100%;
 	bottom: 0;
-	left: 44px;
+	left: 55px;
+}
+.direction__guitar-img {
+	background-image: url(../img/directions_card_img_1.png);
+	height: 270px;
+	background-repeat: no-repeat;
+	margin-left: 40px;
+	margin-bottom: 30px;
 }
 
-.directions-item {
-	/*position: absolute;*/
+.direction__vocal-img {
+	background-image: url(../img/directions_card_img_2.png);
+	height: 270px;
+	background-repeat: no-repeat;
+}
+.direction__piano-img {
+	background-image: url(../img/directions_card_img_3.png);
+	height: 270px;
+	background-repeat: no-repeat;
+	margin-left: 40px;
 }
 
-.direction-all {
+.direction__lessons-img {
+	background-image: url(../img/directions_card_img_4.png);
+	height: 270px;
+	background-repeat: no-repeat;
+}
+
+.direction__all {
 	width: 270px;
 	height: 270px;
-	background-color: #eec643; 
+	background-color: #eec643;
 }
+
+.direction__guitar-title,
+.direction__vocal-title,
+.direction__piano-title,
+.direction__lessons-title,
+.direction__all-title {
+	color: #fff;
+	font-family: 'PT Sans', sans-serif;
+	font-size: 30px;
+	line-height: 40px;
+	font-weight: bold;
+	padding-left: 30px;
+	padding-top: 20px;
+}
+ .direction__all {
+ 	padding-right: 30px
+ }
+
+.direction__piano-text,
+.direction__lessons-text,
+.direction__guitar-text,
+.direction__vocal-text {
+	color: #fff;
+	font-family: 'PT Sans', sans-serif;
+	font-size: 20px;
+	line-height: 28px;
+	padding-left: 35px;
+	padding-top: 5px;
+}
+
+.guitar-price {
+	padding-top: 70px; 
+}
+
+  /* */ 
 
 .__item-title {
 	color: #fff;
