@@ -289,6 +289,35 @@ h1 {
 
 @media (min-width: 706px) {
 
+	.promo-mobile-btn {
+		margin-top: 24%;
+	}
+
+	.direction__guitar-title, 
+	.direction__vocal-title, 
+	.direction__piano-title {
+	    color: #fff;
+	    font-family: 'PT Sans', sans-serif;
+	    font-size: 24px;
+	    line-height: 0px;
+	    font-weight: bold;
+	    padding-left: 15px;
+	    padding-top: 30px;
+	}
+
+	.direction__guitar-text--mobile, 
+	.direction__vocal-text--mobile, 
+	.direction__piano-text--mobile {
+	    display: block;
+	    color: #fff;
+	    font-family: 'PT Sans', sans-serif;
+	    font-size: 20px;
+	    line-height: 0px;
+	    font-weight: normal;
+	    padding-left: 15px;
+	    padding-top: 10px;
+	}
+
 	.direction__guitar-img {
 		background-image: url(../img/directions_card_img_1.png);
 		background-repeat: no-repeat;
@@ -309,8 +338,20 @@ h1 {
 		background-size: cover;
 		height: 250px;
 	}
+	
+	.direction__piano {
+    	width: 75%;
+    } 
 
-
+	.direction__all {
+		height: 249px;
+		margin-top: -249px;
+	}
+	
+	.direction__all-title {
+		font-size: 30px;
+		padding-left: 98px;
+	}
 }
 
 
