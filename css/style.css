@@ -105,13 +105,15 @@ h1 {
 }
 
 
-.direction {
+.direction,
+.advant {
 	height: 560px;
 	margin: 0px 16px 30px 15px;
 
 }
 
-.direction__container {
+.direction__container,
+.advant__container {
 	display: block;
 }
 
@@ -134,17 +136,19 @@ h1 {
 	font-weight: normal;
 }
 
-.direction__header:before {
+.direction__header:before,
+.advant__header:before {
 	content: '';
 	display: block;
 	position: absolute;
 	background: #eec643;
 	width: 100%;
 	height: 1px;
-	top: -6px;
+	top: -9px;
 }
 
-.direction__header::after {
+.direction__header:after,
+.advant__header:after {
 	content: '';
 	display: block;
 	position: absolute;
@@ -178,7 +182,10 @@ h1 {
 
 .direction__guitar-title,
 .direction__vocal-title,
-.direction__piano-title {
+.direction__piano-title,
+.advant__theacher-title,
+.advant__result-title,
+.advant__studio-title {
 	color: #fff;
 	font-family: 'PT Sans', sans-serif;
 	font-size: 18px;
@@ -190,7 +197,10 @@ h1 {
 
 .direction__guitar-text--mobile,
 .direction__vocal-text--mobile,
-.direction__piano-text--mobile {
+.direction__piano-text--mobile,
+.advant__theacher-text--mobile,
+.advant__result-text--mobile,
+.advant__studio-text--mobile {
 	display: block;
 	color: #fff;
 	font-family: 'PT Sans', sans-serif;
@@ -203,7 +213,10 @@ h1 {
 
 .direction__guitar-text--desc,
 .direction__vocal-text--desc,
-.direction__piano-text--desc {
+.direction__piano-text--desc,
+.advant__theacher-text--desc,
+.advant__result-text--desc,
+.advant__studio-text--desc {
 	display: none;
 }
 
@@ -211,7 +224,8 @@ h1 {
 	display: none;
 }
 
-.direction__piano {
+.direction__piano,
+.advant__studio {
 	width: 72%;
 }
 
@@ -228,6 +242,63 @@ h1 {
 
 .direction__all-title {
 	color: #000;
+	font-family: 'PT Sans', sans-serif;
+	font-size: 18px;
+	text-transform: uppercase;
+    padding-left: 13px;
+    padding-right: 10px;
+    padding-bottom: 13px;
+    padding-top: 12px;
+    position: relative;
+    writing-mode: vertical-rl;
+    display: block;
+    margin-left: 0;
+    margin-right: 0;
+}
+
+.advant__header {
+	position: relative;
+	font-size: 33px;
+	font-family: 'Prata', sans-serif;
+	line-height: 30px;
+	transform: none;
+	color: #021a23;
+	font-weight: normal;
+}
+
+.advant__theacher-img {
+	background-image: url(../img/advantages_card_img_1_mobile.png);
+	background-repeat: no-repeat;
+	background-size: cover;
+	height: 145px;
+}
+
+.advant__result-img {
+	background-image: url(../img/advantages_card_img_2_mobile.png);
+	background-repeat: no-repeat;
+	background-size: cover;
+	height: 145px;
+}
+
+.advant__studio {
+	background-image: url(../img/advantages_card_img_3_mobile.png);
+	background-repeat: no-repeat;
+	background-size: cover;
+	height: 145px;
+}
+
+.advant__btn {
+	background-color: #eec643;
+	display: flex;
+    height: 145px;
+    position: relative;
+    transform: rotate(180deg);
+    margin-left: 78%;
+    margin-top: -145px;
+    width: 22%;
+}
+.advant__btn-title {
+	color: #fff;
 	font-family: 'PT Sans', sans-serif;
 	font-size: 18px;
 	text-transform: uppercase;
@@ -350,7 +421,7 @@ h1 {
 	
 	.direction__all-title {
 		font-size: 30px;
-		padding-left: 98px;
+		padding-left: 68px;
 	}
 }
 
