@@ -334,7 +334,8 @@ h1 {
  
 .promo-form,
 .footer-logo,
-.footer-social  {
+.footer-social,
+.advant-form {
 	display: none;
 }
 
@@ -511,7 +512,8 @@ h1 {
 
 	.promo-form,
 	.footer-logo,
-	.footer-social  {
+	.footer-social,
+	.advant-form {
 		display: block;
 	}
 
@@ -845,6 +847,7 @@ h1 {
 	.advant__theacher {
 		margin-right: 15px;
 	}
+
 	.advant__result {
 		margin-right: 15px;
 		margin-left: 15px;
@@ -898,6 +901,17 @@ h1 {
 		padding-left: 30px;
 		padding-top: 5px;
 		
+	}
+
+	.advant-form {
+		background-color: #fff;
+		opacity: .9;
+		padding: 30px 30px 0 30px;
+		width: 270px;
+		height: 570px;
+		border: 2px solid #eec643;
+		margin-top: -100px;
+		margin-left: 15px;
 	}
 
 	  /* */ 
