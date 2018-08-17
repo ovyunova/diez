@@ -280,14 +280,14 @@ h1 {
 	height: 145px;
 }
 
-.advant__studio {
+.advant__studio-img {
 	background-image: url(../img/advantages_card_img_3_mobile.png);
 	background-repeat: no-repeat;
 	background-size: cover;
 	height: 145px;
 }
 
-.advant__btn {
+.advant__btn-mobile {
 	background-color: #eec643;
 	display: flex;
     height: 145px;
@@ -364,9 +364,17 @@ h1 {
 		margin-top: 24%;
 	}
 
+	.direction,
+	.advant {
+	    height: 880px;
+	}
+
 	.direction__guitar-title, 
 	.direction__vocal-title, 
-	.direction__piano-title {
+	.direction__piano-title,
+	.advant__theacher-title,
+	.advant__result-title,
+	.advant__studio-title {
 	    color: #fff;
 	    font-family: 'PT Sans', sans-serif;
 	    font-size: 24px;
@@ -376,9 +384,12 @@ h1 {
 	    padding-top: 30px;
 	}
 
-	.direction__guitar-text--mobile, 
-	.direction__vocal-text--mobile, 
-	.direction__piano-text--mobile {
+	.direction__guitar-text--mobile,
+	.direction__vocal-text--mobile,
+	.direction__piano-text--mobile,
+	.advant__theacher-text--mobile,
+	.advant__result-text--mobile,
+	.advant__studio-text--mobile {
 	    display: block;
 	    color: #fff;
 	    font-family: 'PT Sans', sans-serif;
@@ -409,20 +420,34 @@ h1 {
 		background-size: cover;
 		height: 250px;
 	}
-	
-	.direction__piano {
+
+	.direction__piano,
+	.advant__studio {
     	width: 75%;
     } 
 
-	.direction__all {
+	.direction__all,
+	.advant__btn-mobile {
 		height: 249px;
-		margin-top: -249px;
-	}
+	    margin-top: -249px;
 	
-	.direction__all-title {
+	}
+
+
+    
+	.direction__all-title,
+	.advant__btn-title {
 		font-size: 30px;
 		padding-left: 68px;
 	}
+
+	.advant__theacher-img,
+	.advant__result-img,
+	.advant__studio-img {
+		height: 250px;
+	}
+	
+
 }
 
 
@@ -578,7 +603,8 @@ h1 {
 
 	}
 
-	.promo-mobile-btn {
+	.promo-mobile-btn,
+	.advant__btn-mobile {
 		display: none;
 	}
 
@@ -604,7 +630,8 @@ h1 {
 		line-height: 28px;
 	}
 
-	.direction {
+	.direction,
+	.advant {
 		height: 660px;
 
 	}
@@ -701,6 +728,7 @@ h1 {
 		height: 270px;
 		background-repeat: no-repeat;
 	}
+
 	.direction__piano-img {
 		background-image: url(../img/directions_card_img_3.png);
 		background-repeat: no-repeat;
@@ -763,6 +791,7 @@ h1 {
 		padding-left: 35px;
 		padding-top: 5px;
 	}
+
 	.direction__guitar-text--desc,
 	.direction__vocal-text--desc,
 	.direction__piano-text--desc,
@@ -772,6 +801,103 @@ h1 {
 
 	.guitar-price {
 		padding-top: 70px; 
+	}
+
+	.advant__container {
+		display: block;
+		margin-left: 100px;
+	}
+
+	.advant__header {
+	    position: relative;
+	    font-size: 50px;
+	    font-family: 'Prata', sans-serif;
+	    line-height: 30px;
+	    white-space: nowrap;
+	    color: #021a23;
+	    font-weight: normal;
+	    height: 58px;
+	    margin: 0 0 20px 0;
+	}
+	.advant__header:before,
+	.advant__header:after {
+		width: 50%;
+		height: 2px;
+	}
+	.advant__header:before {
+		top: -20px;
+	}
+	.advant__header:after {
+		bottom: 10px;
+	}
+
+	.advant__theacher,
+	.advant__result {
+		width: 24%;
+	} 
+
+	.advant__studio {
+		width: 267px;
+		margin-left: 18px;
+		margin-top: -100px;
+	}
+	
+	.advant__theacher {
+		margin-right: 15px;
+	}
+	.advant__result {
+		margin-right: 15px;
+		margin-left: 15px;
+	}
+
+	.advant__theacher-img {
+		background-image: url(../img/advantages_card_img_1.png);
+		background-repeat: no-repeat;
+		height: 470px;
+	}
+
+	.advant__result-img {
+		background-image: url(../img/advantages_card_img_2.png);
+		background-repeat: no-repeat;
+		height: 470px;
+	}
+
+	.advant__studio-img {
+		background-image: url(../img/advantages_card_img_3.png);
+		background-repeat: no-repeat;
+		height: 570px;
+	}
+
+	.advant__theacher-title,
+	.advant__result-title,
+	.advant__studio-title {
+		color: #fff;
+		font-family: 'PT Sans', sans-serif;
+		font-size: 30px;
+		line-height: 40px;
+		font-weight: bold;
+		padding-left: 30px;
+		padding-top: 20px;
+	}
+	
+	.advant__theacher-text--mobile,
+	.advant__result-text--mobile,
+	.advant__studio-text--mobile {
+		display: none;
+	}
+	
+	.advant__theacher-text--desc,
+	.advant__result-text--desc,
+	.advant__studio-text--desc {
+	 	display: block;
+		color: #fff;
+		font-family: 'PT Sans', sans-serif;
+		font-size: 20px;
+		font-weight: normal;
+		line-height: 28px;
+		padding-left: 30px;
+		padding-top: 5px;
+		
 	}
 
 	  /* */ 
