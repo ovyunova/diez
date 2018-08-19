@@ -9,22 +9,22 @@ function createYandexMap(){
         // Порядок по умолчнию: «широта, долгота».
         // Чтобы не определять координаты центра карты вручную,
         // воспользуйтесь инструментом Определение координат.
-        center: [55.76, 37.64],
+        center: [59.941993, 30.279423],
         // Уровень масштабирования. Допустимые значения:
         // от 0 (весь мир) до 19.
         zoom: 16
     });
 
-    var myPlacemark = new ymaps.Placemark([55.76, 37.64], {
+    var myPlacemark = new ymaps.Placemark([59.941993, 30.279423], {
     // Хинт показывается при наведении мышкой на иконку метки.
     hintContent: 'Содержимое всплывающей подсказки',
     // Балун откроется при клике по метке.
-    balloonContent: 'Содержимое балуна'
+    balloonContent: 'Diez - школа музыкального искусства'
     },
     {
     
-    //iconLayout: 'default#image',
-    //iconImageHref: 'images/sprite.png',
+    iconLayout: 'default#image',
+    iconImageHref: '/Users/ovyunova/epixx/project/diez-vyunova/img/geotag.png',
 
     });
 
