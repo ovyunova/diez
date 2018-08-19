@@ -14,13 +14,14 @@
 <!-- Шапка с навигацией -->		
 		<header>
 			<span class="logo-diez">Diez</span>
-			<nav>
-				<ul class="nav-list">
-					<li class="nav-item __list">Направления</li>
-					<li class="nav-item __list">О Школе</li>
-					<li class="nav-item __list">Видео</li>
-					<li class="nav-item __list">Контакты</li>
-				</ul>
+			<nav class="page-header">
+				 <a href="" class="toggler" id="toggler"><span></span></a>
+					<ul class="nav-list" id="nav">
+						<li class="nav-item __list">Направления</li>
+						<li class="nav-item __list">О Школе</li>
+						<li class="nav-item __list">Видео</li>
+						<li class="nav-item __list">Контакты</li>
+					</ul>
 			</nav>
 		</header>
 		<!-- Главный блок-->			
@@ -33,7 +34,7 @@
 				 		<div class="promo__btn-mobile">вводный урок</div>
 				 	</div>
 				 	<div class="promo-cols-form">
-				 		<div class="promo-form">
+				 		<div class="promo__form">
 				 			<h3>Вводный урок</h3>
 				 			<p>Попробуйте любые<br>направление бесплатно</p>
 				 			<form action="">
@@ -131,8 +132,8 @@
 							</div>
 						</div>
 
-						<div class="advant-form">
-					 			<h3>Вводный урок</h3>
+						<div class="advant__form">
+					 			<h3 class="form-title__yellow">Вводный урок</h3>
 					 			<p>Попробуйте любые<br>направление бесплатно</p>
 					 			<form action="">
 					 				<input type="text" placeholder="Имя">
@@ -158,10 +159,6 @@
 					<div class="video-container">
 						<div class="video-item">
 							<button></button>
-							<img src="img/video_card_img_1.png" alt="">
-						</div>
-						<div class="video-item">
-							<button></button>
 							<img src="img/video_card_img_2.png" alt="">
 						</div>
 						<div class="video-item">
@@ -169,9 +166,13 @@
 							<img src="img/video_card_img_3.png" alt="">
 						</div>
 						<div class="video-item">
-							<div class="video  __title">В стенах школы</div>
 							<button></button>
 							<img src="img/video_card_img_4.png" alt="">
+						</div>
+						<div class="video-item">
+							<div class="video__header">В стенах школы</div>
+							<button></button>
+							<img src="img/video_card_img_1.png" alt="">
 						</div>
 					</div>	
 		</section>
@@ -180,10 +181,12 @@
 			<div class="contacts__container container">
 					<div class="contacts__header">Ждем тебя</div>
 					<div class="contacts__adress">СПб, 6-я Линия ВО 42<br>+7 (812) 566 56 56</div>
-					<div id="map" class="map"></div>
-					<div class="advant-form">
-					 			<h3>Вводный урок</h3>
-					 			<p>Попробуйте любые<br>направление бесплатно</p>
+			</div>	
+				<div id="map" class="map"></div>
+				<div class="contacts__btn-mobile">вводный урок</div>
+					<div class="contacts__form">
+					 		<h3 class="form-title__yellow">Вводный урок</h3>
+					 		<p>Попробуйте любые<br>направление бесплатно</p>
 					 			<form action="">
 					 				<input type="text" placeholder="Имя">
 					 				<input type="tel" placeholder="Телефон">
@@ -196,8 +199,7 @@
 										<button type="button">записаться</button>
 					 			</form>
 					</div>
-					<div class="contacts__btn-mobile">вводный урок</div>
-			</div>
+
 		</section>
 
 	</main>
