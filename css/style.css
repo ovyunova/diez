@@ -769,7 +769,7 @@ h1 {
 		padding-bottom: 25px;
 	}
 
-	input {
+	.form__black {
 		color: #596063;
 		font-family: 'PT Sans', sans-serif;
 		font-size: 20px;
@@ -779,9 +779,10 @@ h1 {
 		border-right: 0px;
 		border-left: 0px;
 		padding-top: 10px;
-		} 
+		}
 
-	select {
+
+	.form-select__black {
 		color: #596063;
 		font-family: 'PT Sans', sans-serif;
 		font-size: 20px;
@@ -834,10 +835,13 @@ h1 {
 	}
 
 	.promo-subline {
+		display: block;
+		width: 450px;
 		color: #fff;
 		font-family: 'PT Sans', sans-serif;
 		font-size: 20px;
 		line-height: 28px;
+
 	}
 
 	.direction,
@@ -1314,6 +1318,35 @@ h1 {
 
 	.form-title__yellow {
 		color: #eec643;
+
+	}
+
+	.form__yellow {
+		color: #596063;
+		font-family: 'PT Sans', sans-serif;
+		font-size: 20px;
+		line-height: 28px;
+		border-bottom: 2px solid #eec643;
+		border-top: 0px;
+		border-right: 0px;
+		border-left: 0px;
+		padding-top: 10px;
+	}
+
+	.form-select__yellow {
+		color: #596063;
+		font-family: 'PT Sans', sans-serif;
+		font-size: 20px;
+		line-height: 28px;
+		border-bottom: 2px solid #eec643;
+		border-top: 0px;
+		border-right: 0px;
+		border-left: 0px;
+		padding-top: 10px;
+		background-color: #fff;
+		/*opacity: .3;*/
+		border-radius: 0px;
+		width: 212px;
 
 	}
 
