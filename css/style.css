@@ -43,13 +43,38 @@ body {
 }
 
 header {
-	padding-top: 30px;
-	position: relative;
-	z-index: 3;;
-}
 
+/*	padding-top: 30px;
+	position: relative;
+	z-index: 3;;*/
+}
+.burger{
+	position: fixed;
+	top: 0;
+	left: 0;
+	width: 20px;
+	height: 20px;
+	background: black;
+}
+.burger-open{
+	background-color: red;
+}
+.menu{
+	display: none;
+	position: fixed;
+    top: 0;
+    background: grey;
+    z-index: 4;
+}
 nav {
 	display: block;
+}
+
+.nav-item {
+    font-family: 'PT Sans', sans-serif;
+    font-size: 16px;
+    text-transform: uppercase;
+    padding-left: 30px;
 }
 
 header,
@@ -64,6 +89,7 @@ header,
 .promo {
 	position: relative;
 	z-index: 3;
+	padding-top: 30px;
 	height: 405px;
 
 }
@@ -125,6 +151,12 @@ h1 {
 
 .row {
 	display: block;
+}
+
+.direction-row {
+	display: flex;
+	flex-direction: column;
+
 }
 
 .direction__header {
@@ -208,7 +240,7 @@ h1 {
 	color: #fff;
 	font-family: 'PT Sans', sans-serif;
 	font-size: 16px;
-	line-height: 0px;
+	line-height: 22px;
 	font-weight: normal;
 	padding-left: 15px;
 	padding-top: 10px;
@@ -223,6 +255,10 @@ h1 {
 	display: none;
 }
 
+.direction__vocal {
+	order: -1;
+}
+
 .direction__lessons {
 	display: none;
 }
@@ -231,6 +267,7 @@ h1 {
 .advant__studio {
 	width: 72%;
 }
+
 
 .direction__all {
 	background-color: #eec643;
@@ -317,8 +354,23 @@ h1 {
 }
 
 .video {
-	display: none;
 	height: 300px;
+}
+
+.video-container{
+	min-width: 240px;
+	margin: 0 auto;
+}
+
+.slick-slide {
+	width: 240px;
+	height: 180px;
+	overflow: hidden;
+}
+
+.slick-slide img {
+	margin: 0 auto;
+	height: 100%;
 }
 
 .__title {
@@ -438,7 +490,7 @@ h1 {
 	    color: #fff;
 	    font-family: 'PT Sans', sans-serif;
 	    font-size: 20px;
-	    line-height: 0px;
+	    line-height: 22px;
 	    font-weight: normal;
 	    padding-left: 15px;
 	    padding-top: 10px;
@@ -713,10 +765,20 @@ h1 {
 		flex-wrap: wrap;
 	}
 
+	.direction-row {
+		display: flex;
+		flex-wrap: wrap;
+		flex-direction: unset;
+	}
+
 	.direction__guitar,
 	.direction__vocal,
 	.direction__piano {
 		width: 50%;
+	}
+
+	.direction__vocal {
+		order: 0;
 	}
 
 	.direction__lessons,

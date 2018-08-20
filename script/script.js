@@ -33,3 +33,47 @@ function createYandexMap(){
     myMap.geoObjects.add(myPlacemark);
 
 }
+
+$(document).ready(function(){
+    $('#burger').click(function(e){
+        console.log(e)
+        $(e.target).toggleClass('burger-open');
+        $('.menu').toggle()
+    })
+
+
+
+    console.log(document.documentElement.clientWidth)
+    /*window.onresize = function(){
+        if(document.documentElement.clientWidth < 720)
+            $('.video-container').slick({
+
+              responsive: [{
+              breakpoint: 99999,
+                        //settings: "unslick"
+                    },
+                {
+                    settings: "slick",
+                  breakpoint: 768,
+                  settings: {
+                    arrows: false,
+                    centerMode: true,
+                    centerPadding: '40px',
+                    slidesToShow: 1
+                  }
+                },
+                {
+                  breakpoint: 480,
+                  settings: {
+                    arrows: false,
+                    centerMode: true,
+                    centerPadding: '40px',
+                    slidesToShow: 1
+                  }
+                }
+              ]
+            });
+        else
+            $('.video-container').slick('destroy')
+}*/
+})
