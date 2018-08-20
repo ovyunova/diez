@@ -115,6 +115,11 @@ nav {
 	display: block;
 }
 
+a {
+	text-decoration: none;
+	color: #fff;
+}
+
 .nav-item {
     font-family: 'PT Sans', sans-serif;
     font-size: 16px;
@@ -459,11 +464,20 @@ h1 {
 }
 
 .contacts__adress {
+	display: flex;
+	flex-direction: column;
 	font-family: 'PT Sans', sans-serif;
 	font-size: 16px;
 	line-height: 22px;
 	padding-bottom: 5%;
 	padding-top: 5%;
+}
+
+.contacts__adress span {
+	order: 1;
+}
+.contacts__adress a {
+	order: 2;
 }
  
 .contacts__btn-mobile {
@@ -632,6 +646,10 @@ h1 {
 	.burger,
 	.logo-diez__mobile {
 		display: none;
+	}
+
+	a {
+		color: #000;
 	}
 	
 	.wrapper {
@@ -1260,12 +1278,21 @@ h1 {
 	}
 
 	.contacts__adress {
+		display: flex;
+		flex-direction: column;
 		font-family: 'PT Sans', sans-serif;
 		font-size: 20px;
 		line-height: 28px;
 		width: 25%;
 		margin-left: 45px;
-		margin-top: -50px;
+		margin-top: -40px;
+	}
+
+	.contacts__adress span {
+		order: 2;
+	}
+	.contacts__adress a {
+		order: 1;
 	}
 
 	.map {
@@ -1300,7 +1327,7 @@ h1 {
 		border: 1px solid #eec643;
 		width: 270px;
 		height: 80px;
-		margin-top: 175px;
+		margin-top: 187px;
 		margin-left: -32px;
 	}
 
