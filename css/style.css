@@ -616,6 +616,10 @@ h1 {
 
 @media (min-width: 1025px) {
 
+	.burger {
+		display: none;
+	}
+	
 	.wrapper {
 		width: 100%;
 		height: 824px;
@@ -637,12 +641,21 @@ h1 {
 	}
 
 	header {
-		margin-right: 5%;
-		margin-left: 5%;
+		max-width: 1170px;
+		margin: auto;
 		padding-top: 30px;
-		margin-bottom: 140px;
+		/*margin-bottom: 140px;*/
 		position: relative;
 		z-index: 3;
+	}
+
+	.menu {
+		display: block;
+		position: static;
+		margin: auto;
+		max-width: 1170px;
+		padding: 40px 0px 0px 0px;
+		background-color: transparent;
 	}
 
 	nav {
@@ -651,14 +664,12 @@ h1 {
 	}
 
 	.nav-list {
-		padding-left: 60%;
+		padding-left: 62%;
 	    margin-top: -25px;
 	}
 
 	.nav-item {
-		font-family: 'PT Sans', sans-serif;
-		font-size: 16px;
-		text-transform: uppercase;
+		content: #000;
 		padding-left: 30px;
 	}
 
@@ -681,15 +692,17 @@ h1 {
 		margin: 0 auto;
 		position: relative;
 		z-index: 3;
-		height: 650px;
+		height: 730px;
 	}
 
 	.promo-item {
 		display: flex;
 		flex-wrap: wrap; 
+		padding-top: 100px;
 	}
 	.promo-cols {
 		width: 75%;
+		padding-top: 70px;
 	}
 
 	.promo-cols-form {
@@ -859,7 +872,7 @@ h1 {
 		transform: rotate(180deg);
 		display: block;
 		color: #000;
-		width: 3.5%;
+		width: 5.5%;
 		white-space: nowrap;
 		writing-mode: vertical-lr;
 		font-family: 'Prata', sans-serif;
@@ -877,7 +890,7 @@ h1 {
 		width: 2px;
 		height: 100%;
 		top: 0;
-		right: 50px;
+		right: 60px;
 	}
 
 	.direction__header::after {
@@ -888,7 +901,7 @@ h1 {
 		width: 2px;
 		height: 100%;
 		bottom: 0;
-		left: 55px;
+		left: 60px;
 	}
 
 	.direction__guitar-img {
@@ -1273,7 +1286,7 @@ h1 {
 		border: 1px solid #eec643;
 		width: 270px;
 		height: 80px;
-		margin-top: 70px;
+		margin-top: 175px;
 		margin-left: -32px;
 	}
 
