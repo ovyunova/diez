@@ -586,6 +586,12 @@ h1 {
 		z-index: 3;
 	}
 
+	.video-mobile__img {
+		width: 89%;
+	}
+	.video-mobile__text:after {
+		right: -160px;
+	}
 }
 
 @media (min-width: 706px) {
@@ -704,6 +710,24 @@ h1 {
 		margin-top: 20px;
 		font-size: 18px;
 		line-height: 24px;
+	}
+
+	.video-mobile__title {
+		font-size: 24px;
+		padding-left: 40px;
+	}
+
+	.video-mobile__subline {
+		font-size: 20px;
+		padding-left: 40px;
+	}
+
+	.video-mobile__img {
+		width: 89%;
+		height: 200px;
+	}
+	.video-mobile__text:after {
+		right: -415px;
 	}
 }
 
@@ -1270,7 +1294,7 @@ h1 {
 		position: absolute;
 		display: block;
 		box-sizing: content-box;
-		top: 50%; margin-top: -30px;
+		top: 50%; margin-top: -40px;
 		left: 50%; margin-left: -10px;
 		width: 0;
 		height: 0;
