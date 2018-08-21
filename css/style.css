@@ -1343,6 +1343,62 @@ h1 {
 		left: 60px;
 	}
 
+	.video-item__text {
+		position: absolute;
+		display: block;
+		top: 130px;
+		left: 30px;
+		right: 0;
+	}
+	
+	.video-item__text__2 {
+		position: absolute;
+		display: block;
+		top: 150px;
+		left: 30px;
+		right: 0;
+	}
+
+	.video-item__text__main {
+		position: absolute;
+		display: block;
+		top: 20px;
+		left: 30px;
+		right: 0;
+	}
+
+	.video-item__title {
+		font-family: 'PT Sans', sans-serif;
+		font-size: 16px;
+		color: #fff;
+		font-weight: bold;
+	}
+	
+	.video-item__subline {
+		font-family: 'PT Sans', sans-serif;
+		font-size: 14px;
+		color: #fff;
+		font-weight: normal;
+	}
+
+
+	.video-item__title__main {
+		font-family: 'PT Sans', sans-serif;
+		font-size: 30px;
+		line-height: 40px;
+		font-weight: bold;
+		color: #fff;
+		padding-bottom: 10px;
+	}
+	
+	.video-item__subline__main {
+		font-family: 'PT Sans', sans-serif;
+		font-size: 20px;
+		line-height: 28px;
+		font-weight: normal;
+		color: #fff;
+	}
+
 	.contacts__container{
 		display: flex;
 		max-width: 1170px;
