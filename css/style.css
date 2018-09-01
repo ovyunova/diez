@@ -479,9 +479,13 @@ h1 {
 	top: 80px;
 }
 
-.video {
+/*.video {
 	display: none;
-}
+}*/
+
+/*.video-mobile {
+	display: none;
+}*/
 
 .video-container{
 	min-width: 240px;
